@@ -789,10 +789,6 @@ textarea:-webkit-autofill {
   transition: 0.3s ease all, background 0s;
   z-index: 997;
 }
-.header-navbar.fixed-top,
-.header-navbar.floating-nav {
-  left: 260px;
-}
 .header-navbar[class*="bg-"] .navbar-nav .nav-item > a,
 .header-navbar[class*="bg-"] .navbar-nav .nav-item > a i,
 .header-navbar[class*="bg-"] .navbar-nav .nav-item > a span,
