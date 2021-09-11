@@ -98,9 +98,6 @@
   -ms-transform: rotate(90deg);
   transform: rotate(90deg);
 }
-.vertical-layout.vertical-menu-modern.menu-expanded .footer {
-  margin-left: 260px;
-}
 .vertical-layout.vertical-menu-modern.menu-collapsed .navbar .navbar-header {
   float: left;
   width: 80px;
