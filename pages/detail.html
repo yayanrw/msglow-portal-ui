@@ -39,71 +39,74 @@ li
     data-menu="vertical-menu-modern" data-col="">
 
     <!-- BEGIN: Header-->
-    <nav class="header-navbar navbar navbar-expand-lg align-items-center navbar-shadow navbar-light p-0 fixed-top">
+
+    <nav
+        class="header-navbar navbar navbar-expand-lg align-items-center navbar-shadow navbar-light ps-3 pe-3 fixed-top">
         <div class="navbar-container d-flex content">
             <div class="bookmark-wrapper d-flex align-items-center">
-                <a href="/pages/home.html" style="color: #000; font-size: medium;">
+                <a href="#" style="color: #000; font-size: 20px;">
                     <strong>MSGLOW</strong>PORTAL
                 </a>
             </div>
             <ul class="nav navbar-nav align-items-center ms-auto">
-                <li class="nav-item">SOP Documents</li>
+                <li class="nav-item">
+                    <a class="text-black" href="">SOP Documents</a>
+                </li>
                 <li class="nav-item dropdown dropdown-user ps-3"><a class="nav-link dropdown-toggle dropdown-user-link"
                         id="dropdown-user" href="#" data-bs-toggle="dropdown" aria-haspopup="true"
                         aria-expanded="false">
-                        <div class="user-nav d-sm-flex d-none"><span class="user-name fw-bolder">John Doe</span><span
-                                class="user-status">Admin</span></div><span class="avatar"><img class="round"
-                                src="/asset..s//img/avatar/1.png" alt="avatar" height="40" width="40"><span
-                                class="avatar-status-online"></span></span>
+                        <span class="avatar">
+                            <img class="round" src="../assets//img/avatar/1.png" alt="avatar" height="40" width="40">
+                            <span class="avatar-status-online"></span>
+                        </span>
+                        <span class="ps-1">@Username</span>
                     </a>
-                    <div class="dropdown-menu dropdown-menu-end" aria-labelledby="dropdown-user"><a
-                            class="dropdown-item" href="page-profile.html"><i class="me-50" data-feather="user"></i>
-                            Profile</a><a class="dropdown-item" href="app-email.html"><i class="me-50"
-                                data-feather="mail"></i> Inbox</a><a class="dropdown-item" href="app-todo.html"><i
-                                class="me-50" data-feather="check-square"></i> Task</a><a class="dropdown-item"
-                            href="app-chat.html"><i class="me-50" data-feather="message-square"></i> Chats</a>
-                        <div class="dropdown-divider"></div><a class="dropdown-item"
-                            href="page-account-settings-account.html"><i class="me-50" data-feather="settings"></i>
-                            Settings</a><a class="dropdown-item" href="page-pricing.html"><i class="me-50"
-                                data-feather="credit-card"></i> Pricing</a><a class="dropdown-item"
-                            href="page-faq.html"><i class="me-50" data-feather="help-circle"></i> FAQ</a><a
-                            class="dropdown-item" href="auth-login-cover.html"><i class="me-50"
-                                data-feather="power"></i> Logout</a>
+                    <div class="dropdown-menu dropdown-menu-end" aria-labelledby="dropdown-user">
+                        <a class="dropdown-item" href="auth-login-cover.html">
+                            <i class="me-50" data-feather="power"></i> Logout
+                        </a>
                     </div>
                 </li>
             </ul>
         </div>
     </nav>
     <!-- END: Header-->
-    <div class="row pt-5 mt-2">
-        <div class="col-12 col-lg-10 col-lg-offset-3 mx-auto">
-            <div class="pricing-trial-content d-flex justify-content-between">
-                <div class="text-center text-md-start mt-3">
-                    <h1 class="text-primary">Sales <small>ERP Systems</small></h1>
-                    <button class="btn btn-primary mt-2 mt-lg-3 waves-effect waves-float waves-light">Start 14-day FREE
-                        trial</button>
-                </div>
-
-                <!-- image -->
-                <img src="https://pixinvent.com/demo/vuexy-html-bootstrap-admin-template/app-assets/images/illustration/pricing-Illustration.svg"
-                    class="pricing-trial-img img-fluid" alt="svg img">
-            </div>
-        </div>
-    </div>
-
 
     <!-- BEGIN: Content-->
     <div class="app-content content">
         <div class="content-overlay"></div>
         <div class="header-navbar-shadow"></div>
-        <div class="content-wrapper container-xxl ps-5 pe-5">
+        <div class="content-wrapper container-xxl ps-2 pe-2">
             <div class="content-body">
                 <!-- Knowledge base -->
+                <section id="knowledge-base-search">
+                    <div class="row">
+                        <div class="col-12">
+                            <div class="card knowledge-base-bg"
+                                style="background-image: url('../assets/img/banner/banner_sales.jpg')">
+                                <div class="card-body">
+                                    <div class="row">
+                                        <div class="text-end col-lg-3">
+                                            <h1 class="text-black" style="font-size: 56px;">Sales</h1>
+                                            <p class="d-inline card-text mb-2 text-black">
+                                                <span>ERP Systems</span>
+                                            </p>
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
                 <section id="knowledge-base-content">
                     <div class="row">
-                        <div class="col-lg-9">
-                            <h3>Short description intro</h3>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium aspernatur eum natus
+                        <div class="col-lg-8">
+                            <h3 class="text-black fw-bolder">Short description intro</h3>
+                            <p class="text-black">Lorem ipsum dolor sit amet consectetur
+                                adipisicing elit. Praesentium
+                                aspernatur eum natus
                                 laudantium voluptatum quaerat modi, consectetur architecto molestias perspiciatis,
                                 dolorum culpa inventore eos temporibus. Esse rerum doloremque voluptate magnam
                                 blanditiis, atque voluptatem porro sed accusantium et sapiente! A neque minima
@@ -118,23 +121,23 @@ li
                                 consectetur tenetur accusantium eligendi esse quaerat incidunt ipsam? In recusandae illo
                                 natus cumque ut exercitationem aliquid.</p>
                         </div>
-                        <div class="col-lg-2 offset-lg-1">
-                            <div class="row float-end">
-                                <h6>Go to:</h6>
-                                <a href="#" class="btn btn-primary btn-lg">Sales ERP System</a>
+                        <div class="col-lg-3 offset-lg-1">
+                            <div class="row">
+                                <h6 class="text-black">Go to:</h6>
+                                <a href="#" class="btn btn-primary btn-lg pt-2 pb-2">Sales ERP System</a>
                             </div>
                         </div>
                     </div>
 
                     <div class="row pt-3">
-                        <h3>Documentation</h3>
+                        <h2 class="text-black pb-1">Documentations</h2>
 
                         <div class="col-lg-6 col-md-6 col-sm-12">
                             <div class="card">
-                                <div class="card-header">
+                                <div class="card-body">
                                     <div>
-                                        <h5 class="fw-bolder mb-0">Documentation #1</h5>
-                                        <p class="card-text pt-1">
+                                        <h4 class="card-title text-black">Documentation #1</h4>
+                                        <p class="card-text">
                                             Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi laborum
                                             corporis dolores animi, veniam inventore. Repellendus fuga voluptatibus
                                             magni autem eum blanditiis facilis, nisi ipsam ducimus doloremque corporis,
@@ -151,10 +154,10 @@ li
 
                         <div class="col-lg-6 col-md-6 col-sm-12">
                             <div class="card">
-                                <div class="card-header">
+                                <div class="card-body">
                                     <div>
-                                        <h5 class="fw-bolder mb-0">Documentation #1</h5>
-                                        <p class="card-text pt-1">
+                                        <h4 class="card-title text-black">Documentation #1</h4>
+                                        <p class="card-text">
                                             Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi laborum
                                             corporis dolores animi, veniam inventore. Repellendus fuga voluptatibus
                                             magni autem eum blanditiis facilis, nisi ipsam ducimus doloremque corporis,
@@ -171,10 +174,10 @@ li
 
                         <div class="col-lg-6 col-md-6 col-sm-12">
                             <div class="card">
-                                <div class="card-header">
+                                <div class="card-body">
                                     <div>
-                                        <h5 class="fw-bolder mb-0">Documentation #1</h5>
-                                        <p class="card-text pt-1">
+                                        <h4 class="card-title text-black">Documentation #1</h4>
+                                        <p class="card-text">
                                             Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi laborum
                                             corporis dolores animi, veniam inventore. Repellendus fuga voluptatibus
                                             magni autem eum blanditiis facilis, nisi ipsam ducimus doloremque corporis,
@@ -191,10 +194,10 @@ li
 
                         <div class="col-lg-6 col-md-6 col-sm-12">
                             <div class="card">
-                                <div class="card-header">
+                                <div class="card-body">
                                     <div>
-                                        <h5 class="fw-bolder mb-0">Documentation #1</h5>
-                                        <p class="card-text pt-1">
+                                        <h4 class="card-title text-black">Documentation #1</h4>
+                                        <p class="card-text">
                                             Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi laborum
                                             corporis dolores animi, veniam inventore. Repellendus fuga voluptatibus
                                             magni autem eum blanditiis facilis, nisi ipsam ducimus doloremque corporis,
@@ -232,7 +235,7 @@ li
 
 
     <!-- BEGIN: Page Vendor JS-->
-    <script src="../assets/js/jquery.validate.min.js"></script>
+    <script src="../assets/js/vendors.min.js"></script>
     <!-- END: Page Vendor JS-->
 
     <!-- BEGIN: Theme JS-->
