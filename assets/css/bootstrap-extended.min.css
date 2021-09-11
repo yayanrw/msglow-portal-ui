@@ -784,7 +784,7 @@ textarea:-webkit-autofill {
 .header-navbar {
   padding: 0;
   min-height: 4.45rem;
-  font-family: Montserrat, Helvetica, Arial, serif;
+  font-family: "Inter", sans-serif;
   -webkit-transition: 0.3s ease all, background 0s;
   transition: 0.3s ease all, background 0s;
   z-index: 997;
