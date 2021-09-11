@@ -31,6 +31,12 @@ li
     <link rel="stylesheet" type="text/css" href="../assets/css/components.min.css">
     <!-- END: Page CSS-->
 
+    <style>
+        .list-padding {
+            padding-bottom: 8px;
+        }
+    </style>
+
 </head>
 <!-- END: Head-->
 
@@ -49,7 +55,9 @@ li
                 </a>
             </div>
             <ul class="nav navbar-nav align-items-center ms-auto">
-                <li class="nav-item">SOP Documents</li>
+                <li class="nav-item">
+                    <a class="text-black" href="">SOP Documents</a>
+                </li>
                 <li class="nav-item dropdown dropdown-user ps-3"><a class="nav-link dropdown-toggle dropdown-user-link"
                         id="dropdown-user" href="#" data-bs-toggle="dropdown" aria-haspopup="true"
                         aria-expanded="false">
@@ -59,19 +67,10 @@ li
                         </span>
                         <span class="ps-1">@Username</span>
                     </a>
-                    <div class="dropdown-menu dropdown-menu-end" aria-labelledby="dropdown-user"><a
-                            class="dropdown-item" href="page-profile.html"><i class="me-50" data-feather="user"></i>
-                            Profile</a><a class="dropdown-item" href="app-email.html"><i class="me-50"
-                                data-feather="mail"></i> Inbox</a><a class="dropdown-item" href="app-todo.html"><i
-                                class="me-50" data-feather="check-square"></i> Task</a><a class="dropdown-item"
-                            href="app-chat.html"><i class="me-50" data-feather="message-square"></i> Chats</a>
-                        <div class="dropdown-divider"></div><a class="dropdown-item"
-                            href="page-account-settings-account.html"><i class="me-50" data-feather="settings"></i>
-                            Settings</a><a class="dropdown-item" href="page-pricing.html"><i class="me-50"
-                                data-feather="credit-card"></i> Pricing</a><a class="dropdown-item"
-                            href="page-faq.html"><i class="me-50" data-feather="help-circle"></i> FAQ</a><a
-                            class="dropdown-item" href="auth-login-cover.html"><i class="me-50"
-                                data-feather="power"></i> Logout</a>
+                    <div class="dropdown-menu dropdown-menu-end" aria-labelledby="dropdown-user">
+                        <a class="dropdown-item" href="auth-login-cover.html">
+                            <i class="me-50" data-feather="power"></i> Logout
+                        </a>
                     </div>
                 </li>
             </ul>
@@ -380,10 +379,10 @@ li
                                 <div class="card-body">
                                     <h5 class="card-title text-black fw-bolder">Category #1</h5>
                                     <ul style="list-style-type: none;" class="p-0">
-                                        <li><a href="#" class="card-link">Sub Category #1</a></li>
-                                        <li><a href="#" class="card-link">Sub Category #2</a></li>
-                                        <li><a href="#" class="card-link">Sub Category #3</a></li>
-                                        <li><a href="#" class="card-link">Sub Category #4</a></li>
+                                        <li class="list-padding"><a href="#" class="card-link">Sub Category #1</a></li>
+                                        <li class="list-padding"><a href="#" class="card-link">Sub Category #2</a></li>
+                                        <li class="list-padding"><a href="#" class="card-link">Sub Category #3</a></li>
+                                        <li class="list-padding"><a href="#" class="card-link">Sub Category #4</a></li>
                                     </ul>
                                 </div>
                             </div>
@@ -393,10 +392,10 @@ li
                                 <div class="card-body">
                                     <h5 class="card-title text-black fw-bolder">Category #2</h5>
                                     <ul style="list-style-type: none;" class="p-0">
-                                        <li><a href="#" class="card-link">Sub Category #1</a></li>
-                                        <li><a href="#" class="card-link">Sub Category #2</a></li>
-                                        <li><a href="#" class="card-link">Sub Category #3</a></li>
-                                        <li><a href="#" class="card-link">Sub Category #4</a></li>
+                                        <li class="list-padding"><a href="#" class="card-link">Sub Category #1</a></li>
+                                        <li class="list-padding"><a href="#" class="card-link">Sub Category #2</a></li>
+                                        <li class="list-padding"><a href="#" class="card-link">Sub Category #3</a></li>
+                                        <li class="list-padding"><a href="#" class="card-link">Sub Category #4</a></li>
                                     </ul>
                                 </div>
                             </div>
@@ -406,10 +405,10 @@ li
                                 <div class="card-body">
                                     <h5 class="card-title text-black fw-bolder">Category #3</h5>
                                     <ul style="list-style-type: none;" class="p-0">
-                                        <li><a href="#" class="card-link">Sub Category #1</a></li>
-                                        <li><a href="#" class="card-link">Sub Category #2</a></li>
-                                        <li><a href="#" class="card-link">Sub Category #3</a></li>
-                                        <li><a href="#" class="card-link">Sub Category #4</a></li>
+                                        <li class="list-padding"><a href="#" class="card-link">Sub Category #1</a></li>
+                                        <li class="list-padding"><a href="#" class="card-link">Sub Category #2</a></li>
+                                        <li class="list-padding"><a href="#" class="card-link">Sub Category #3</a></li>
+                                        <li class="list-padding"><a href="#" class="card-link">Sub Category #4</a></li>
                                     </ul>
                                 </div>
                             </div>
@@ -431,6 +430,29 @@ li
         <p class="clearfix mb-0 fst-italic">Copyright by MSGLOW IT Team 2021. All Right Reserved.</p>
     </footer>
     <!-- END: Footer-->
+
+
+
+    <!-- BEGIN: Page Vendor JS-->
+    <script src="../assets/js/vendors.min.js"></script>
+    <!-- END: Page Vendor JS-->
+
+    <!-- BEGIN: Theme JS-->
+    <script src="../assets/js/app-menu.min.js"></script>
+    <script src="../assets/js/app.min.js"></script>
+    <!-- END: Theme JS-->
+
+    <!-- BEGIN: Page JS-->
+    <script src="../assets/js/page-knowledge-base.min.js"></script>
+    <!-- END: Page JS-->
+
+    <script>
+        $(window).on('load', function () {
+            if (feather) {
+                feather.replace({ width: 14, height: 14 });
+            }
+        })
+    </script>
 </body>
 <!-- END: Body-->
 
