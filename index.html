@@ -8,7 +8,7 @@
     <meta name="description" content="Msglow Portal Apps">
     <meta name="keywords" content="msglow portal, msglow app">
     <meta name="author" content="yayanrw">
-    <title>MSGLOW - PORTAL</title>
+    <title>Msglow Portal</title>
     <link rel="apple-touch-icon" href="./assets/images/ico/apple-icon-120.html">
     <link rel="shortcut icon" type="image/x-icon"
         href="https://pixinvent.com/demo/vuexy-html-bootstrap-admin-template/app-assets/images/ico/favicon.ico">
@@ -101,7 +101,7 @@
                             <div class="col-12 col-sm-8 col-md-6 col-lg-12 px-xl-2 mx-auto">
                                 <h2 class="card-title fw-bold mb-1">Welcome to Msglow Portal! 👋</h2>
                                 <p class="card-text mb-2">Please sign-in to your account and start the adventure</p>
-                                <form class="auth-login-form mt-2" action="" method="POST">
+                                <form class="auth-login-form mt-2" action="/pages/home.html" method="POST">
                                     <div class="mb-1">
                                         <label class="form-label" for="login-email">Email</label>
                                         <input class="form-control" id="login-email" type="text" name="login-email"
@@ -129,7 +129,8 @@
                                             <label class="form-check-label" for="remember-me"> Remember Me</label>
                                         </div>
                                     </div>
-                                    <button class="btn btn-primary w-100" tabindex="4">Sign in</button>
+                                    <button type="button" class="btn btn-primary w-100" tabindex="4"
+                                        onclick="window.location.href='/pages/home.html'">Sign in</button>
                                 </form>
                             </div>
                         </div>
