@@ -1114,6 +1114,10 @@ textarea:-webkit-autofill {
   margin-bottom: 0.435rem;
   margin-left: 0.2rem;
 }
+.header-navbar.fixed-top,
+.header-navbar.floating-nav {
+  left: 260px;
+}
 .header-navbar
   .navbar-container
   ul.navbar-nav
