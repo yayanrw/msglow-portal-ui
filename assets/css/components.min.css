@@ -22,9 +22,10 @@ html .content {
   transition: 0.3s ease all;
   backface-visibility: hidden;
   min-height: calc(100% - 3.35rem);
+  margin-left: 260px;
 }
 html .content.app-content {
-  padding: 70px 40px;
+  padding: calc(2rem + 4.45rem + 1.3rem) 2rem 0;
 }
 html .content.app-content.show-overlay .content-overlay {
   z-index: 10;
@@ -639,6 +640,7 @@ footer.footer {
   min-height: 3.35rem;
   -webkit-transition: 0.3s ease all;
   transition: 0.3s ease all;
+  margin-left: 240px;
 }
 footer.footer span i,
 footer.footer span svg {
@@ -1116,13 +1118,13 @@ footer.footer-border {
 }
 .navigation {
   font-size: 1.1rem;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-weight: 400;
   overflow-y: hidden;
   padding-bottom: 20px;
 }
 .navigation .navigation-header {
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-weight: 500;
   line-height: 1.2;
   padding: 12px 22px;
